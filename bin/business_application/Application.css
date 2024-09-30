@@ -1,0 +1,62 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.gradient
+{
+	-fx-background-color: linear-gradient(to bottom right, #c42a13, #132fc2);
+}
+
+.white-form
+{
+	-fx-background-color: #fff;
+}
+
+.head-label
+{
+	-fx-border-color: #132fc2;
+	-fx-border-width: 0 0 0 5px;
+	-fx-padding: 0 0 0 5px;
+}
+
+.login-btn
+{
+	-fx-background-color: linear-gradient(to bottom right, #092091, #32a915);
+	-fx-background-radius : 5px;
+	-fx-cursor : hand;
+	-fx-text-fill : #fff;
+	-fx-font-size : 14px; 
+}
+.login-btn:hover
+{
+	-fx-background-color: linear-gradient(to bottom right, #45d624, #24b2d9);
+}
+
+.textfield
+{
+	-fx-background-color: transparent;
+	-fx-border-color: linear-gradient(to bottom right, #c42a13, #132fc2);
+	-fx-border-width: 0.55px;
+}
+.textfield:focused
+{
+	-fx-border-width: 1px;
+}
+
+.create-btn
+{
+	-fx-background-color: transparent;
+	-fx-cursor : hand;
+	-fx-text-fill : #fff;
+	-fx-border-color: #fff;
+	-fx-border-width: 1px;
+}
+
+.create-btn:hover
+{
+	-fx-background-color: #fff;
+	-fx-text-fill : #000;
+}
+
+
+
+
+
