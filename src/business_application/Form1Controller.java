@@ -45,13 +45,6 @@ import javafx.stage.FileChooser.ExtensionFilter;
 import javafx.scene.chart.BarChart;
 import javafx.scene.chart.AreaChart;
 import javafx.scene.chart.XYChart;
-//import net.sf.jasperreports.engine.JasperCompileManager;
-//import net.sf.jasperreports.engine.JasperFillManager;
-//import net.sf.jasperreports.engine.JasperPrint;
-//import net.sf.jasperreports.engine.JasperReport;
-//import net.sf.jasperreports.engine.design.JasperDesign;
-//import net.sf.jasperreports.engine.xml.JRXmlLoader;
-//import net.sf.jasperreports.view.JasperViewer;
 import javafx.stage.Stage;
 
 public class Form1Controller implements Initializable
@@ -1013,41 +1006,7 @@ public class Form1Controller implements Initializable
         menu_amount.setText("");
         menu_change.setText("₹0.0");
     }
-    
-//  public void menuReceiptBtn() 
-//  {    
-//      if (totalP == 0 || menu_amount.getText().isEmpty()) 
-//      {
-//          alert = new Alert(AlertType.ERROR);
-//          alert.setTitle("Error Message");
-//          alert.setContentText("Please order first");
-//          alert.showAndWait();
-//      } 
-//      else 
-//      {
-//          HashMap map = new HashMap();
-//          map.put("getReceipt", (cID - 1));
-//          
-//          try 
-//          {
-//              
-//              JasperDesign jDesign = JRXmlLoader.load("C:\\Users\\WINDOWS 10\\Documents\\NetBeansProjects\\cafeShopManagementSystem\\src\\cafeshopmanagementsystem\\report.jrxml");
-//              JasperReport jReport = JasperCompileManager.compileReport(jDesign);
-//              JasperPrint jPrint = JasperFillManager.fillReport(jReport, map, connect);
-//              
-//              JasperViewer.viewReport(jPrint, false);
-//              
-//              menuRestart();
-//              
-//          } 
-//          catch (Exception e) 
-//          {
-//              e.printStackTrace();
-//          }
-//          
-//      }
-//  }
-    
+        
     private int cID;
     public void customerID() 
     {
